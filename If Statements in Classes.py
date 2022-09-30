@@ -32,18 +32,3 @@ elif choice == 2:
     print(car2.description())
 else:
     print("Invalid!")
-
-
-class StudentRecord():
-    def __init__(self, name, age, grades):
-        self.name = name
-        self.age = age
-        self.grades = grades
-
-p1 = StudentRecord("Abdi",16,7)
-print(p1.name)
-print(p1.age)
-print(p1.grades)
-
-StudentRecord.grades = 7,7
-print(p1.grades)
